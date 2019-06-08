@@ -1,0 +1,26 @@
+{
+  "name": "universe-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvink/universe-api.git"
+  },
+  "keywords": [
+    "universe",
+    "milky",
+    "way",
+    "planets",
+    "probes"
+  ],
+  "author": "Jurian Vink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvink/universe-api/issues"
+  },
+  "homepage": "https://github.com/jvink/universe-api#readme"
+}
