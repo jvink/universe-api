@@ -1,4 +1,4 @@
-if (app.get('env') == 'development'){ require('dotenv').config(); }
+if (process.env.NODE_ENV !== 'production') require('dotenv').config();
 const con = require('./config/db');
 const express = require('express');
 const app = express();
