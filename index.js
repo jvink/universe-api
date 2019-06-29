@@ -1,10 +1,10 @@
-require('dotenv').config();
+require('dotenv').config({ silent: process.env.NODE_ENV === 'production' });
 const con = require('./config/db');
 const express = require('express');
 const app = express();
 
 app.listen(process.env.PORT, () =>
-    console.log(`Star gazing using port ${process.env.PORT}`),
+    console.log(`Star gazing using port ${process.env.PORT || 4000}`),
 );
 
 con.connect((error) => {
