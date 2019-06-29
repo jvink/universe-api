@@ -1,4 +1,4 @@
-require('dotenv').config({ silent: process.env.NODE_ENV === 'production' });
+if (app.get('env') == 'development'){ require('dotenv').config(); }
 const mysql = require('mysql');
 
 module.exports = mysql.createConnection({
